@@ -1,0 +1,40 @@
+---
+import PageHeading from "../components/page-heading.astro";
+import HighlightsLoop from "../components/highlights-loop.astro";
+import Layout from "../layouts/main.astro";
+---
+
+<Layout title="Highlights">
+  <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <PageHeading
+      title="Security Highlights"
+      description="A curated selection of my security findings, technical contributions, and hands-on work across application security, red teaming, and secure systems."
+    />
+    <!-- Security Findings -->
+    <h2 class="mt-12 mb-4 text-lg font-semibold">Security Findings</h2>
+    <p class="text-sm text-neutral-600 dark:text-neutral-400 mb-6">
+      Real-world issues identified through manual testing and logic analysis.
+    </p>
+    <div class="flex flex-col gap-5">
+      <HighlightsLoop category="finding" />
+    </div>
+
+    <!-- Custom Tools -->
+    <h2 class="mt-14 mb-4 text-lg font-semibold">Custom Security Tools</h2>
+    <p class="text-sm text-neutral-600 dark:text-neutral-400 mb-6">
+      Purpose-built tooling created to solve gaps in security workflows.
+    </p>
+    <div class="flex flex-col gap-5">
+      <HighlightsLoop category="tools" />
+    </div>
+
+    <!-- Labs & CTFs -->
+    <h2 class="mt-14 mb-4 text-lg font-semibold">Labs & CTF Work</h2>
+    <p class="text-sm text-neutral-600 dark:text-neutral-400 mb-6">
+      Designed and solved challenges focused on exploitation and defense.
+    </p>
+    <div class="flex flex-col gap-5">
+      <HighlightsLoop category="lab" />
+    </div>
+  </section>
+</Layout>

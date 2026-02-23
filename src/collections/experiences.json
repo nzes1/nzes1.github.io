@@ -1,23 +1,30 @@
 [
-	{
-		"dates": "June 2018 · Present",
-		"role": "Front-end Engineer",
-		"company": "Full Truck Alliance",
-		"description": "Responsible for customer service and CRM system front-end development.",
-		"logo": "/assets/images/experiences/fta.ico"
-	},
-	{
-		"dates": "July 2015 · June 2018",
-		"role": "Front-end Engineer",
-		"company": "YOHO!",
-		"description": "Responsible for mobile front-end development of e-commerce platform.",
-		"logo": "/assets/images/experiences/yoho.ico"
-	},
-	{
-		"dates": "September 2014 · July 2015 ",
-		"role": "Node.JS Developer",
-		"company": "WuLian",
-		"description": "Intern, involved in the development of Internet of Things cloud systems.",
-		"logo": "/assets/images/experiences/wulian.ico"
-	}
+  {
+    "dates": "Jan 2024 — Present",
+    "role": "Senior Application Security Engineer",
+    "company": "I&M Bank Group",
+    "description": "Conduct internal and external penetration testing engagements across web, APIs, mobile, and infrastructure environments. Drive DevSecOps initiatives including secure SDLC integration, CI/CD security reviews, and threat modelling. Represent cybersecurity in IT change enablement reviews and contribute to enterprise-level risk decisions while coordinating cross-team security efforts.",
+    "logo": "assets/images/im-logo.png"
+  },
+  {
+    "dates": "Jan 2023 — Dec 2024",
+    "role": "Application Security Associate",
+    "company": "I&M Bank Group",
+    "description": "Conducted structured VAPT assessments across applications and infrastructure. Performed business logic testing, authentication and authorization analysis, and API security reviews. Delivered actionable remediation guidance to engineering teams and supported ISO 27001 compliance evidence preparation.",
+    "logo": "assets/images/im-logo.png"
+  },
+  {
+    "dates": "Feb 2022 — Dec 2022",
+    "role": "Cybersecurity Analyst",
+    "company": "I&M Bank Group",
+    "description": "Started in security operations center (SOC) supporting 24/7 monitoring, incident triage, and vulnerability management, while gradually contributing to application security assessments. This period built foundational visibility into detection engineering, attack patterns, and enterprise security controls.",
+    "logo": "assets/images/im-logo.png"
+  },
+  {
+    "dates": "Mar 2024 — Present (Part-Time)",
+    "role": "Security Consultant — Application Security",
+    "company": "Bitwise Digital Solutions",
+    "description": "Deliver security assessments for SaaS platforms including web application testing, API reviews, and DevSecOps advisory. Support in integrating practical security validation into fast-moving engineering environments.",
+    "logo": "assets/images/bitwise.png"
+  }
 ]

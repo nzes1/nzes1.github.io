@@ -1,0 +1,16 @@
+[
+    {
+		"dates": "Sep 2017 — Dec 2021",
+		"role": "Bsc. Software Engineering",
+		"company": "Multimedia University of Kenya",
+		"description": "First Class Honors",
+		"logo": "assets/images/mmu.jpg"
+	},
+    {
+		"dates": "Jan 2013 — Dec 2016",
+		"role": "Kenya Certificate of Secondary Education - KCSE",
+		"company": "Machakos High School",
+		"description": "Grade: A- (Minus)",
+		"logo": "assets/images/knec.png"
+	}
+]

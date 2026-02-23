@@ -1,32 +1,51 @@
 ---
 import experiences from "../collections/experiences.json";
+import education from "../collections/education.json";
+import certifications from "../collections/certifications.json";
 import AboutExperience from "../components/about-experience.astro";
 import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
 ---
 
-<Layout title="About Me">
+<Layout title="About">
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
-    <PageHeading
-      title="About Me"
-      description="Hello 👋 I'm a frontend engineer from Nanjing, China. I'm passionate about building new products and learning new technology."
-    />
+    <PageHeading title="About Me" />
 
-    <img src="/assets/images/about.jpg" class="relative z-30 w-full my-10 rounded-xl" />
-
-    <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Short Bio</h2>
-    <p
-      class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
+    <div
+      class="mt-6 space-y-5 text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:text-lg"
     >
-      Front-end cutter 🧑🏻‍💻, back-end amateur 🤷🏻‍♂️, operations digging holes person 🤦🏻‍♂️.
-    </p>
+      <p>
+        I am an Application Security and Offensive Security practitioner focused
+        on uncovering real-world abuse paths across web applications, APIs,
+        mobile platforms, and enterprise systems.
+      </p>
+
+      <p>
+        My work combines manual business-logic testing, authentication analysis,
+        red teaming techniques, and DevSecOps integration to identify risks that
+        automated scanning alone cannot detect.
+      </p>
+
+      <p>
+        I have grown from security operations into full-time application
+        security and offensive testing, taking ownership of complex assessments
+        and secure SDLC initiatives while collaborating closely with engineering
+        teams to build systems that are resilient by design.
+      </p>
+
+      <p class="font italic">
+        Below, you can explore my professional experience, educational
+        background, and certifications in more detail.
+      </p>
+    </div>
 
     <h2
-      class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-4 sm:mt-6 dark:text-neutral-200"
     >
       Experience
     </h2>
-    <div class="px-5 py-10">
+
+    <div class="px-5 py-0">
       {
         experiences.map((experience) => {
           return (
@@ -39,22 +58,81 @@ import Layout from "../layouts/main.astro";
                 logo={experience.logo}
               />
             </div>
-          )
+          );
         })
       }
     </div>
 
-    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Let's Connect</h2>
+    <h2
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-4 sm:mt-6 dark:text-neutral-200"
+    >
+      Education
+    </h2>
+
+    <div class="px-5 py-0">
+      {
+        education.map((experience) => {
+          return (
+            <div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
+              <AboutExperience
+                dates={experience.dates}
+                role={experience.role}
+                company={experience.company}
+                description={experience.description}
+                logo={experience.logo}
+              />
+            </div>
+          );
+        })
+      }
+    </div>
+    <h2
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-4 sm:mt-6 dark:text-neutral-200"
+    >
+      Certifications
+    </h2>
+
+    <div class="px-5 py-0">
+      {
+        certifications.map((experience) => {
+          return (
+            <div class="pb-10 border-l border-gray-200 last:border-l-0 dark:border-neutral-700">
+              <AboutExperience
+                dates={experience.dates}
+                role={experience.role}
+                company={experience.company}
+                description={experience.description}
+                logo={experience.logo}
+              />
+            </div>
+          );
+        })
+      }
+    </div>
+
+    <h2
+      class="mt-5 mb-2 text-2xl font-bold lg:mt-4 sm:mt-6 dark:text-neutral-200"
+    >
+      Let’s Connect
+    </h2>
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-      If you want to stay up to date with my work be sure to <a
-        href="https://x.com/0xKaibi"
+      You can find me on
+      <a
+        href="https://www.linkedin.com/in/simon-mutua/"
         target="_blank"
-        class="text-indigo-600 underline">follow me on twitter</a
-      >, or you can send me an <a href="mailto:astro-aria#miantiao.me" class="text-indigo-600 underline"
+        class="text-indigo-600 underline">LinkedIn</a
+      >
+      and
+      <a
+        href="https://github.com/nzes1"
+        target="_blank"
+        class="text-indigo-600 underline">GitHub</a
+      >, or reach me via
+      <a href="mailto:nzesi@bugcrowdninja.com" class="text-indigo-600 underline"
         >email</a
-      > and I'll be sure to get back to you.
+      >.
     </p>
   </section>
 </Layout>

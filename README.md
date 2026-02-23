@@ -1,13 +1,57 @@
-# Aria Template
+# 🛡️ Security Portfolio – Nzesi
 
-This is a personal blog, portfolio, or blog template created for [Astro](https://astro.build).
+A modern, minimal portfolio built with Astro, showcasing my work in:
 
-Astro port of [aria](https://github.com/static-templates/aria).
+- Application Security
+- Offensive Security & Red Teaming
+- Business Logic Testing
+- DevSecOps Integration
+- Security Tooling & Labs
 
-![Aria Template Cover Photo](https://github.com/ccbikai/astro-aria/blob/main/public/assets/images/cover.png?raw=true)
+## 🔎 Overview
 
-You can install this theme with the [Astro](https://astro.build) command like so:
+This portfolio highlights real-world security findings, technical contributions, and hands-on research across web, API, and enterprise environments.
 
-```js
-npm create astro@latest -- --template ccbikai/astro-aria
+The site is structured around:
+
+- Security Findings
+- Custom Security Tools
+- Labs & CTF Work
+- Professional Experience & Certifications
+
+Built with performance, clarity, and maintainability in mind.
+
+---
+
+## ⚙️ Tech Stack
+
+- [Astro](https://astro.build/)
+- TailwindCSS
+- Static Content Collections
+- GitHub Pages (deployment)
+
+---
+
+## 🚀 Local Development
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
 ```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start dev server
+
+```bash
+npm install
+```
+
+
+>....then start tweaking to your liking

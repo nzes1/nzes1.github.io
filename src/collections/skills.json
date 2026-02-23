@@ -1,0 +1,86 @@
+[
+  {
+    "id": "web-app-pentest",
+    "name": "Web & API Penetration Testing",
+    "summary": "Breaking real-world application logic, not just finding bugs.",
+    "detail": "I test web applications and APIs with an attacker mindset, focusing on authentication flows, authorization boundaries, and business logic abuse. My approach prioritizes exploitability and impact, chaining weaknesses the way a real attacker would rather than relying on checklist scanning.",
+    "icon": "shield",
+    "theme": {
+      "icon": "group-hover:text-emerald-700",
+      "title": "group-hover:text-red-600",
+      "border": "group-hover:border-red-500"
+    }
+  },
+  {
+    "id": "appsec-engineering",
+    "name": "Application Security Engineering",
+    "summary": "Designing security into applications, not bolting it on later.",
+    "detail": "I partner with engineers to threat-model features, review code, and define secure patterns that scale across teams. The focus is on preventing vulnerability reintroduction through better design, developer enablement, and security ownership within engineering.",
+    "icon": "radar",
+    "theme": {
+      "icon": "group-hover:text-indigo-700",
+      "title": "group-hover:text-red-600",
+      "border": "group-hover:border-red-500"
+    }
+  },
+  {
+    "id": "red-teaming",
+    "name": "Internal & External Red Teaming",
+    "summary": "Assumed-breach, impact-driven security testing.",
+    "detail": "I conduct internal and external red team exercises to simulate realistic attacker behavior, focusing on attack paths rather than isolated findings. Results are framed in terms of business impact and defensive gaps, not just technical issues.",
+    "icon": "brick-wall-shield",
+    "theme": {
+      "icon": "group-hover:text-red-700",
+      "title": "group-hover:text-red-600",
+      "border": "group-hover:border-red-500"
+    }
+  },
+  {
+    "id": "api-microservices-security",
+    "name": "API & Distributed Systems Security",
+    "summary": "Securing identity, trust, and data flow in modern architectures i.e., micro-services",
+    "detail": "I assess APIs and microservices for auth flaws, authorization bypasses, tenant isolation issues, and insecure service-to-service trust. This includes token handling, integration boundaries, and abuse cases specific to distributed systems and modern application stacks.",
+    "icon": "container",
+    "theme": {
+      "icon": "group-hover:text-orange-700",
+      "title": "group-hover:text-red-600",
+      "border": "group-hover:border-red-500"
+    }
+  },
+  {
+    "id": "devsecops-sdlc",
+    "name": "DevSecOps & Secure SDLC",
+    "summary": "Embedding security into delivery pipelines without slowing teams down.",
+    "detail": "I integrate security into CI/CD pipelines using SAST, DAST, and dependency scanning, focusing on fast feedback and actionable findings. The goal is sustainable security that developers can maintain, not controls that get bypassed under delivery pressure.",
+    "icon": "git-merge",
+    "theme": {
+      "icon": "group-hover:text-purple-700",
+      "title": "group-hover:text-red-600",
+      "border": "group-hover:border-red-500"
+    }
+  },
+  {
+    "id": "threat-modelling",
+    "name": "Threat Modelling & Risk-Based Security",
+    "summary": "Prioritizing what actually matters.",
+    "detail": "I use threat modelling to identify realistic attack paths early in the lifecycle, helping teams focus on risks with real impact. This ensures security effort is proportional, intentional, and aligned with how systems are actually attacked.",
+    "icon": "bug-play",
+    "theme": {
+      "icon": "group-hover:text-amber-700",
+      "title": "group-hover:text-red-600",
+      "border": "group-hover:border-red-500"
+    }
+  },
+  {
+     "id": "security-collaboration-governance",
+      "name": "Security Collaboration & Change Governance",
+      "summary": "Bringing security into engineering decisions at scale.",
+      "detail": "I work across engineering, operations, and risk teams to assess security impact during design and change discussions. By translating risk into clear engineering and business terms, I help teams move fast without introducing unnecessary exposure.",
+    "icon": "bug-play",
+    "theme": {
+      "icon": "group-hover:text-amber-700",
+      "title": "group-hover:text-red-600",
+      "border": "group-hover:border-red-500"
+    }
+  }
+]
