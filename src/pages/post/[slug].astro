@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import PostLayout from "../../layouts/post.astro";
 
 export async function getStaticPaths() {
   const postEntries = await getCollection("post");
@@ -13,4 +14,8 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
 
-<Content />
+<!-- Had to update how the markdown is rendered since after the upgrade, the layout of individual
+ posts was broken -->
+<PostLayout entry={entry}>
+  <Content />
+</PostLayout>
