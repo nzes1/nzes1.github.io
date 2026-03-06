@@ -4,7 +4,7 @@
     "role": "Senior Application Security Engineer",
     "company": "I&M Bank Group",
     "description": "Conduct internal and external penetration testing engagements across web, APIs, mobile, and infrastructure environments. Drive DevSecOps initiatives including secure SDLC integration, CI/CD security reviews, and threat modelling. Represent cybersecurity in IT change enablement reviews and contribute to enterprise-level risk decisions while coordinating cross-team security efforts.",
-    "logo": "assets/images/im-logo.png"
+    "logo": "/assets/images/im-logo.png"
   },
   {
     "dates": "Jan 2023 — Dec 2024",
