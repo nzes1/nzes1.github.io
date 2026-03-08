@@ -8,7 +8,7 @@ category: "finding"
 
 ---
 
-## Improper JWT Validation Leading to Full Account Takeover
+<!-- ## Improper JWT Validation Leading to Full Account Takeover -->
 
 ### Overview
 

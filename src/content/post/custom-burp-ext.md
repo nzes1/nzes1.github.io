@@ -7,9 +7,9 @@ category: "tools"
 ---
 ---
 
-### Automating Authenticated Testing at Scale
+<!-- ### Automating Authenticated Testing at Scale
 
-**Custom Tooling for Long-Lived Security Assessments**
+**Custom Tooling for Long-Lived Security Assessments** -->
 
 ## Overview
 
