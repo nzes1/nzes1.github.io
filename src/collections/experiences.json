@@ -11,20 +11,20 @@
     "role": "Application Security Associate",
     "company": "I&M Bank Group",
     "description": "Conducted structured VAPT assessments across applications and infrastructure. Performed business logic testing, authentication and authorization analysis, and API security reviews. Delivered actionable remediation guidance to engineering teams and supported ISO 27001 compliance evidence preparation.",
-    "logo": "assets/images/im-logo.png"
+    "logo": "/assets/images/im-logo.png"
   },
   {
     "dates": "Feb 2022 — Dec 2022",
     "role": "Cybersecurity Analyst",
     "company": "I&M Bank Group",
     "description": "Started in security operations center (SOC) supporting 24/7 monitoring, incident triage, and vulnerability management, while gradually contributing to application security assessments. This period built foundational visibility into detection engineering, attack patterns, and enterprise security controls.",
-    "logo": "assets/images/im-logo.png"
+    "logo": "/assets/images/im-logo.png"
   },
   {
     "dates": "Mar 2024 — Present (Part-Time)",
     "role": "Security Consultant — Application Security",
     "company": "Bitwise Digital Solutions",
     "description": "Deliver security assessments for SaaS platforms including web application testing, API reviews, and DevSecOps advisory. Support in integrating practical security validation into fast-moving engineering environments.",
-    "logo": "assets/images/bitwise.png"
+    "logo": "/assets/images/bitwise.png"
   }
 ]
